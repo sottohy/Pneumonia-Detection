@@ -10,7 +10,7 @@ We start by loading the CSV file containing image labels and separates the data 
 
 The code then generates train.txt and test.txt files containing the paths to the training and testing images. We also create a classes.names file listing the class names and an image_data.data file specifying the number of classes, paths to the training and validation text files, class names file, and backup directory. 
 
-## Clone the darknet repository
+## Cloning the darknet repository
 We clone the darknet repository from https://github.com/AlexeyAB/darknet and run the !make command after navigating to the darknet directory. Inside darknet/makefile: we change GPU, CUDNN, and OPENCV to 1.
 We then download yolov4.conv.137 file, which contains pretrained weights for the convolutuon layers.
 
